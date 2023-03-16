@@ -1,0 +1,15 @@
+.button {
+  font-family: 'Pixelboy';
+  border: none;
+  width: 150px;
+  height: 70px;
+  font-size: 30px;
+  background-color: gray;
+  border-radius: 20px;
+}
+
+.stop-button {
+  position: absolute;
+  top: 210px;
+  left: 220px;
+}

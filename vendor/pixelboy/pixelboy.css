@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Pixelboy';
+  src: url('./pixeboy.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Pixelboy';
+  src: url('./pixeboy.woff2') format('woff2');
+}

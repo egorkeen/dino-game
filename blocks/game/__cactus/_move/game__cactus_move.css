@@ -1,0 +1,13 @@
+.game__cactus_move {
+  animation: cactusMove 1.4s infinite linear;
+}
+
+@keyframes cactusMove {
+  from {
+    left: 585px;
+  }
+
+  to {
+    left: -10px;
+  }
+}

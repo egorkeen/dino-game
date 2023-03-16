@@ -1,0 +1,17 @@
+.game__dino_jump{
+  animation: jump .4s linear;
+}
+
+@keyframes jump {
+  0% {
+    top: 151px;
+  }
+
+  50% {
+    top: 80px;
+  }
+
+  100% {
+    top: 150px;
+  }
+}

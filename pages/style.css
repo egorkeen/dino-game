@@ -1,0 +1,16 @@
+@import url(../vendor/pixelboy/pixelboy.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/game/game.css);
+@import url(../blocks/game/__dino/game__dino.css);
+@import url(../blocks/game/__dino/_jump/game__dino_jump.css);
+@import url(../blocks/game/__cactus/game__cactus.css);
+@import url(../blocks/game/__cactus/_move/game__cactus_move.css);
+@import url(../blocks/game/__background/game__background.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__title/menu__title.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/dead-screen/dead-screen.css);
+@import url(../blocks/dead-screen/__title/dead-screen__title.css);
+@import url(../blocks/states/states.css);
