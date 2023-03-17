@@ -7,8 +7,6 @@ const stopButton = document.querySelector('.stop-button');
 const restartButton = document.querySelector('.restart-button');
 const gameMenu = document.querySelector('.menu');
 const deadScreen = document.querySelector('.dead-screen');
-const jumpAudio = new Audio('../../sounds/jump.mp3');
-const deadAudio = new Audio('../../sounds/game-over.mp3');
 
 const gameConfig = {
   intervalId: 'interval', 
@@ -19,7 +17,6 @@ const gameConfig = {
   cactus: cactus, 
   cactusMoveClass: 'game__cactus_move', 
   hiddenState: 'hidden', 
-  deadAudio: deadAudio, 
   window: window
 }
 
@@ -33,7 +30,5 @@ export {
   gameMenu,
   gameInterface,
   deadScreen,
-  jumpAudio,
-  deadAudio,
   gameConfig
 };

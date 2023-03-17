@@ -1,5 +1,7 @@
+import { deadAudio } from "../utils/constants";
+
 class Game {
-  constructor(gameConfig, jumpFunction) {
+  constructor(gameConfig, jumpFunction, deadAudio) {
     this._intervalId = gameConfig.intervalId;
     this._gameMenu = gameConfig.gameMenu;
     this._gameInterface = gameConfig.gameInterface;
@@ -8,7 +10,7 @@ class Game {
     this._cactus = gameConfig.cactus;
     this._cactusMoveClass = gameConfig.cactusMoveClass;
     this._hiddenState = gameConfig.hiddenState;
-    this._deadAudio = gameConfig.deadAudio;
+    this._deadAudio = deadAudio;
     this._window = gameConfig.window;
     this._jumpFunction = jumpFunction;
   }
