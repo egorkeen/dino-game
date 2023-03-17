@@ -7,10 +7,10 @@ const stopButton = document.querySelector('.stop-button');
 const restartButton = document.querySelector('.restart-button');
 const gameMenu = document.querySelector('.menu');
 const deadScreen = document.querySelector('.dead-screen');
-const jumpWav = './sounds/jump.wav';
-const jumpAudio = new Audio(jumpWav);
-const deadWav = './sounds/dead.wav';
-const deadAudio = new Audio(deadWav);
+const jumpMp3 = './sounds/jump.mp3';
+const jumpAudio = new Audio(jumpMp3);
+const deadMp3 = './sounds/game-over.mp3';
+const deadAudio = new Audio(deadMp3);
 
 const gameConfig = {
   intervalId: 'interval', 
