@@ -12,8 +12,8 @@ import {
 } from '../scripts/utils/constants.js';
 import Game from '../scripts/components/Game.js';
 
-const jumpAudio = new Audio('../../sounds/jump.mp3');
-const deadAudio = new Audio('../../sounds/game-over.mp3');
+const jumpAudio = new Audio('../sounds/jump.mp3');
+const deadAudio = new Audio('../sounds/game-over.mp3');
 
 function jump() {
   if (!dino.classList.contains('game__dino_jump')) {
