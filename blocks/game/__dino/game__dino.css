@@ -12,22 +12,22 @@
 
 @keyframes dinoAnimation {
   0% {
-    background-image: url('../../../../images/dino/dino-default.png');
+    background-image: url('../../../images/dino/dino-default.png');
   }
 
   25% {
-    background-image: url('../../../../images/dino/dino-run-1.png');
+    background-image: url('../../../images/dino/dino-run-1.png');
   }
 
   50% {
-    background-image: url('../../../../images/dino/dino-default.png');
+    background-image: url('../../../images/dino/dino-default.png');
   }
   75% {
-    background-image: url('../../../../images/dino/dino-run-2.png');
+    background-image: url('../../../images/dino/dino-run-2.png');
   }
 
   100% {
-    background-image: url('../../../../images/dino/dino-default.png');
+    background-image: url('../../../images/dino/dino-default.png');
   }
 }
 
