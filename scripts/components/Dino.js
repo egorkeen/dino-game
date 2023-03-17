@@ -1,0 +1,9 @@
+class Dino {
+  constructor() {
+
+  }
+
+  jump() {
+    
+  }
+}

@@ -21,7 +21,7 @@ function jump() {
   }
   setTimeout( function() {
     dino.classList.remove('game__dino_jump');
-  }, 410)
+  }, 410);
 }
 
 const dinoGame = new Game(gameConfig, () => jump());

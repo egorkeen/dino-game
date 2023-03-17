@@ -1,0 +1,6 @@
+.game__background {
+  width: inherit;
+  height: inherit;
+  background-image: url('../../../images/background.jpg');
+  background-size: contain;
+}
