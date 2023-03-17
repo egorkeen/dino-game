@@ -1,12 +1,5 @@
 .dead-screen {
-  width: 600px;
-  height: 200px;
-  margin: 200px auto;
-  border: 2px solid black;
   z-index: 1;
-  position: absolute;
-  left: 0;
-  right: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

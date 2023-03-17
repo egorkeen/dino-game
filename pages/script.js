@@ -9,16 +9,10 @@ import {
   gameInterface,
   deadScreen,
   jumpAudio,
-  deadAudio
+  deadAudio,
+  gameConfig
 } from '../scripts/utils/constants.js';
 import Game from '../scripts/components/Game.js';
-
-const gameState = new Game('interval', gameMenu, gameInterface, deadScreen, dino, cactus, 'game__cactus_move', 'hidden', deadAudio, window);
-
-
-gameMenu.classList.remove('hidden');
-gameInterface.classList.add('hidden');
-deadScreen.classList.add('hidden');
 
 function jump() {
   if (!dino.classList.contains('game__dino_jump')) {
@@ -30,18 +24,21 @@ function jump() {
   }, 410)
 }
 
+const dinoGame = new Game(gameConfig, () => jump());
+
+
+gameMenu.classList.remove('hidden');
+gameInterface.classList.add('hidden');
+deadScreen.classList.add('hidden');
+
 startButton.addEventListener('click', () => {
-  gameState.start()
+  dinoGame.start()
 });
 
 stopButton.addEventListener('click', () => {
-  gameState.stop();
+  dinoGame.stop();
 });
 
 restartButton.addEventListener('click', () => {
-  gameState.start();
-})
-
-document.addEventListener('keydown', (event) => {
-  jump();
+  dinoGame.start();
 });

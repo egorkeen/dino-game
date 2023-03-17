@@ -12,6 +12,19 @@ const jumpAudio = new Audio(jumpWav);
 const deadWav = './sounds/dead.wav';
 const deadAudio = new Audio(deadWav);
 
+const gameConfig = {
+  intervalId: 'interval', 
+  gameMenu: gameMenu, 
+  gameInterface: gameInterface, 
+  deadScreen: deadScreen, 
+  dino: dino, 
+  cactus: cactus, 
+  cactusMoveClass: 'game__cactus_move', 
+  hiddenState: 'hidden', 
+  deadAudio: deadAudio, 
+  window: window
+}
+
 export {
   dino,
   cactus,
@@ -23,5 +36,6 @@ export {
   gameInterface,
   deadScreen,
   jumpAudio,
-  deadAudio
+  deadAudio,
+  gameConfig
 };

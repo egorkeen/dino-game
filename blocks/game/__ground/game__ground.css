@@ -1,0 +1,7 @@
+.game__ground {
+  width: inherit;
+  border: none;
+  margin: 110px auto;
+  border-bottom: 2px solid black;
+
+}
