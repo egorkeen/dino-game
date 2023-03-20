@@ -1,13 +1,16 @@
 class Screen {
-  constructor() {
-
+  constructor(screenSelector, hiddenClass) {
+    this._screen = document.querySelector(screenSelector);
+    this._hiddenClass = hiddenClass;
   }
 
-  showScreen() {
-
+  show() {
+    this._screen.classList.remove(this._hiddenClass);
   }
 
-  hideScreen() {
-    
+  hide() {
+    this._screen.classList.add(this._hiddenClass);
   }
 }
+
+export default Screen;

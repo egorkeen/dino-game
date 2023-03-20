@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <link rel="icon" href="./images/dino/dino-default.png" type="image/x-icon">
   <title>Dino Game</title>
 </head>
 <body>
   <div class="page">
-    <div class="screen menu">
+    <div class="screen menu menu-screen">
       <h1 class="menu__title">Dino Game</h1>
       <button class="button start-button">Start</button>
     </div>
-    <div class="screen game">
+    <div class="screen game game-screen">
       <div class="game__background"></div>
       <div class="game__dino"></div>
       <div class="game__cactus"></div>
@@ -25,7 +25,11 @@
       <h2 class="dead-screen__title">Game Over</h2>
       <button class="button restart-button">Restart</button>
     </div>
+    <div class="audio-container">
+      <audio src="./sounds/jump.mp3" id="jump-audio" type="audio/mpeg"></audio>
+      <audio src="./sounds/game-over.mp3" id="game-over-audio" type="audio/mpeg"></audio>
+    </div>
   </div>
-  <script type="module" src="./pages/script.js"></script>
+  <script type="module" src="./pages/index.js"></script>
 </body>
 </html>

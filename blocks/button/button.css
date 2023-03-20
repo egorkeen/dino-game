@@ -8,6 +8,10 @@
   border-radius: 20px;
 }
 
+.button:hover {
+  opacity: .8;
+}
+
 .stop-button {
   position: absolute;
   top: 300px;
